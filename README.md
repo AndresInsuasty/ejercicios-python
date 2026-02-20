@@ -1,19 +1,20 @@
 # 🐍 Ejercicios de Python
 
-> **Aprende Python resolviendo problemas cotidianos.** Una colección de 15 ejercicios prácticos con datos reales para principiantes sin experiencia técnica previa.
+> **Aprende Python resolviendo problemas cotidianos.** Una colección de 18 ejercicios prácticos con datos reales para principiantes sin experiencia técnica previa.
 
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Pandas](https://img.shields.io/badge/Pandas-2.0+-green.svg)](https://pandas.pydata.org/)
+[![SQLite](https://img.shields.io/badge/SQLite-3+-lightblue.svg)](https://www.sqlite.org/)
 [![UV](https://img.shields.io/badge/Package%20Manager-UV-brightgreen.svg)](https://docs.astral.sh/uv/)
 
 ---
 
 ## 🎯 ¿Qué es esto?
 
-Este repositorio contiene **15 ejercicios de Python** diseñados para personas que **nunca han programado**. Cada ejercicio:
+Este repositorio contiene **18 ejercicios de Python** diseñados para personas que **nunca han programado**. Cada ejercicio:
 
-✅ Resuelve un **problema del mundo real** (compras, recetas, deportes, películas, libros)  
-✅ Usa **datos estructurados** en archivos CSV y JSON  
+✅ Resuelve un **problema del mundo real** (compras, recetas, deportes, películas, libros, tienda de bicicletas)  
+✅ Usa **datos estructurados** en archivos CSV, JSON y bases de datos SQLite  
 ✅ Incluye **explicaciones claras** sin jerga técnica  
 ✅ Tiene una **solución completa** para consultar
 
@@ -47,6 +48,15 @@ Usando **Pandas** para análisis de datos reales.
 | 13 | 🏃 Deportes | CSV | ¿Cuántos km recorriste? | [Ver](soluciones/13_distancia_total.py) |
 | 14 | 📚 Libros | JSON | ¿Cuántos libros leíste? | [Ver](soluciones/14_libros_leidos.py) |
 | 15 | 🎯 Deportes | CSV | ¿Cuál es tu deporte favorito? | [Ver](soluciones/15_actividad_favorita.py) |
+
+### Parte 3: Ejercicios con SQL (3 ejercicios)
+Usando **Pandas + SQLite** para consultas en bases de datos.
+
+| # | Tema | Concepto SQL | Pregunta | Solución |
+|---|------|--------------|----------|----------|
+| 16 | 🚲 Tienda Bicicletas | SELECT + Pandas | ¿Cuáles son las bicicletas? | [Ver](soluciones/16_listar_bicicletas.py) |
+| 17 | 💰 Ingresos | SUM() + Pandas | ¿Cuál es el ingreso total? | [Ver](soluciones/17_ingresos_totales.py) |
+| 18 | 📋 Ventas | JOIN + Pandas | ¿Cuál es el historial de ventas? | [Ver](soluciones/18_historial_ventas.py) |
 
 ---
 

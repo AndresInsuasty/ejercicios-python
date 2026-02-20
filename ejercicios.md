@@ -294,6 +294,93 @@ Tu actividad favorita es 'Correr', la hiciste 5 veces en febrero.
 
 ---
 
+## 🗄️ Parte 3: Ejercicios con SQL (3 ejercicios)
+
+En esta sección usaremos una **base de datos SQLite** con tablas relacionadas de una tienda de bicicletas. Aprenderemos a consultar datos usando SQL.
+
+### Base de datos: [data/bicicletas_tienda.db](data/bicicletas_tienda.db)
+
+Las tablas incluyen:
+- **bicicletas:** Inventario de productos (nombre, modelo, precio, stock, tipo)
+- **clientes:** Información de clientes (nombre, email, teléfono, ciudad, fecha registro)
+- **ventas:** Registro de compras (cliente, bicicleta, cantidad, precio, fecha)
+
+---
+
+### **Ejercicio 16: Base de datos - Listar todas las bicicletas**
+
+**Pregunta:** ¿Cuáles son las bicicletas disponibles en la tienda con su precio y stock?
+
+**Archivo de datos:** [data/bicicletas_tienda.db](data/bicicletas_tienda.db)
+
+**Qué debes hacer:**
+1. Usa pandas para leer datos desde la base de datos SQLite con `pd.read_sql()`
+2. Escribe una consulta SELECT para obtener nombre, modelo, precio y stock
+3. Itera sobre los resultados y muestra cada bicicleta con su información
+
+**Esperado:**
+```
+=== INVENTARIO DE BICICLETAS ===
+
+• Mountain Bike Pro (XC-2024)
+  Precio: 450.00€ | Stock: 12 unidades
+
+• Road Racer Elite (RR-2024)
+  Precio: 650.00€ | Stock: 8 unidades
+...
+```
+
+**Solución:** [soluciones/16_listar_bicicletas.py](soluciones/16_listar_bicicletas.py)
+
+---
+
+### **Ejercicio 17: Base de datos - ¿Cuál es el ingreso total por ventas?**
+
+**Pregunta:** ¿Cuánto dinero ha generado la tienda con todas las ventas realizadas?
+
+**Archivo de datos:** [data/bicicletas_tienda.db](data/bicicletas_tienda.db)
+
+**Qué debes hacer:**
+1. Usa pandas para leer desde la base de datos SQLite
+2. Escribe una consulta con SUM() para calcular ingresos (cantidad × precio_unitario)
+3. Extrae el resultado del DataFrame y muéstralo
+
+**Esperado:**
+```
+💰 Ingresos totales por ventas: 5640.00€
+```
+
+**Solución:** [soluciones/17_ingresos_totales.py](soluciones/17_ingresos_totales.py)
+
+---
+
+### **Ejercicio 18: Base de datos - Ver historial de ventas con JOINs**
+
+**Pregunta:** ¿Cuál es el historial completo de ventas (cliente, bicicleta, cantidad, fecha)?
+
+**Archivo de datos:** [data/bicicletas_tienda.db](data/bicicletas_tienda.db)
+
+**Qué debes hacer:**
+1. Usa pandas para leer desde la base de datos SQLite
+2. Escribe un JOIN para combinar datos de ventas, clientes y bicicletas
+3. Ordena por fecha (más recientes primero)
+4. Itera sobre los resultados y muestra el historial de forma legible
+
+**Esperado:**
+```
+=== HISTORIAL DE VENTAS ===
+
+Fecha: 2025-02-18
+  Cliente: Ana Rodríguez
+  Bicicleta: BMX Stunter
+  Cantidad: 1 × 280.00€ = 280.00€
+...
+```
+
+**Solución:** [soluciones/18_historial_ventas.py](soluciones/18_historial_ventas.py)
+
+---
+
 ## 🎯 Cómo empezar
 
 ### Instalación inicial
@@ -306,10 +393,17 @@ uv sync
    uv run soluciones/01_hola_mundo.py
    ```
 
-2. **Con datos:** Primero revisa el archivo de datos, luego intenta resolver el ejercicio
+2. **Con datos (Pandas):** Primero revisa el archivo de datos, luego intenta resolver el ejercicio
    ```bash
-   cat data/compras_semana.csv
+   head data/compras_semana.csv
    uv run soluciones/06_gasto_total_compras.py
    ```
 
-3. **Consulta soluciones:** Si te atascas, puedes ver cómo se resuelve abriendo el archivo de solución
+3. **Con base de datos (SQL):** Consulta datos usando SQLite
+   ```bash
+   uv run soluciones/16_listar_bicicletas.py
+   uv run soluciones/17_ingresos_totales.py
+   uv run soluciones/18_historial_ventas.py
+   ```
+
+4. **Consulta soluciones:** Si te atascas, puedes ver cómo se resuelve abriendo el archivo de solución
