@@ -1,0 +1,23 @@
+GASTOS DE FEBRERO 2025
+
+CATEGORÍA: Alimentos
+Compra supermercado: 45.30
+Café con amigos: 12.50
+Restaurant: 35.80
+
+CATEGORÍA: Transporte
+Gasolina: 60.00
+Transporte público: 15.00
+
+CATEGORÍA: Vivienda
+Servicios (agua, luz, gas): 85.00
+Internet: 40.00
+
+CATEGORÍA: Entretenimiento
+Cine: 15.00
+Streaming: 9.99
+Libros: 25.00
+
+CATEGORÍA: Salud
+Farmacia: 30.50
+Gimnasio: 50.00

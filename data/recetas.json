@@ -1,0 +1,37 @@
+[
+  {
+    "nombre": "Ensalada César",
+    "tiempo_minutos": 15,
+    "calorias": 250,
+    "dificultad": "fácil",
+    "ingredientes": ["lechuga", "pollo", "queso parmesano", "crutones"]
+  },
+  {
+    "nombre": "Pasta a la Boloñesa",
+    "tiempo_minutos": 45,
+    "calorias": 450,
+    "dificultad": "media",
+    "ingredientes": ["pasta", "carne molida", "tomate", "cebolla", "ajo"]
+  },
+  {
+    "nombre": "Omelette de champiñones",
+    "tiempo_minutos": 20,
+    "calorias": 220,
+    "dificultad": "fácil",
+    "ingredientes": ["huevos", "champiñones", "cebolla", "sal"]
+  },
+  {
+    "nombre": "Sopa de verduras",
+    "tiempo_minutos": 35,
+    "calorias": 150,
+    "dificultad": "fácil",
+    "ingredientes": ["zanahoria", "papa", "cebolla", "tomate", "caldo"]
+  },
+  {
+    "nombre": "Filete a la pimienta",
+    "tiempo_minutos": 25,
+    "calorias": 500,
+    "dificultad": "media",
+    "ingredientes": ["filete de res", "pimienta negra", "ajo", "mantequilla"]
+  }
+]

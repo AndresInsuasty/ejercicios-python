@@ -1,0 +1,44 @@
+[
+  {
+    "titulo": "El viaje de Chihiro",
+    "año": 2001,
+    "puntuacion": 8.9,
+    "duracion_minutos": 125,
+    "genero": "Animación"
+  },
+  {
+    "titulo": "La vida es bella",
+    "año": 1997,
+    "puntuacion": 8.6,
+    "duracion_minutos": 116,
+    "genero": "Drama"
+  },
+  {
+    "titulo": "Pulp Fiction",
+    "año": 1994,
+    "puntuacion": 8.5,
+    "duracion_minutos": 154,
+    "genero": "Crimen"
+  },
+  {
+    "titulo": "Matrix",
+    "año": 1999,
+    "puntuacion": 8.7,
+    "duracion_minutos": 136,
+    "genero": "Ciencia ficción"
+  },
+  {
+    "titulo": "Forrest Gump",
+    "año": 1994,
+    "puntuacion": 8.8,
+    "duracion_minutos": 142,
+    "genero": "Drama"
+  },
+  {
+    "titulo": "Inception",
+    "año": 2010,
+    "puntuacion": 8.8,
+    "duracion_minutos": 148,
+    "genero": "Ciencia ficción"
+  }
+]

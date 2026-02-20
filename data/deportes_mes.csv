@@ -1,0 +1,13 @@
+fecha,tipo_actividad,duracion_minutos,calorias_quemadas,distancia_km
+2025-02-01,Correr,30,250,5.0
+2025-02-03,Ciclismo,45,320,15.0
+2025-02-05,Correr,35,280,5.5
+2025-02-08,Natación,40,310,2.0
+2025-02-10,Correr,40,300,6.0
+2025-02-12,Ciclismo,50,340,16.0
+2025-02-15,Correr,25,200,4.0
+2025-02-17,Caminata,60,220,8.0
+2025-02-19,Ciclismo,55,360,18.0
+2025-02-22,Correr,45,350,7.0
+2025-02-25,Natación,50,380,2.5
+2025-02-28,Correr,30,240,5.0
