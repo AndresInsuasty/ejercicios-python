@@ -1,0 +1,8 @@
+[project]
+name = "ejercicios-python"
+version = "0.1.0"
+description = "Ejercicios prácticos de Python con datos reales para principiantes"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0.0",
+]

@@ -212,44 +212,44 @@ La receta más ligera es 'Sopa de verduras' con 150 calorías.
 
 ---
 
-### **Ejercicio 12: Tareas - ¿Cuántas actividades tienes el lunes?**
+### **Ejercicio 12: Compras - ¿Cuál es la categoría que más costo tiene?**
 
-**Pregunta:** Tienes un archivo con tus tareas por día. ¿Cuántos eventos tiene el lunes?
+**Pregunta:** Tienes un registro de todas tus compras organizadas por categoría. ¿En cuál categoría gastaste más dinero?
 
-**Archivo de datos:** [data/tareas_dia.txt](data/tareas_dia.txt)
+**Archivo de datos:** [data/compras_semana.csv](data/compras_semana.csv)
 
 **Qué debes hacer:**
-1. Lee el archivo TXT
-2. Cuenta cuántas líneas tiene la sección del lunes (cada línea es una tarea)
-3. Muestra el número de tareas
+1. Lee el archivo CSV
+2. Agrupa por categoría y suma el gasto total de cada una (precio × cantidad)
+3. Encuentra cuál tiene el mayor gasto
+4. Muestra la categoría y su gasto total
 
 **Esperado:**
 ```
-El lunes tienes 8 tareas programadas.
+La categoría con mayor gasto es 'proteínas' con 9.50€
 ```
 
-**Solución:** [soluciones/12_tareas_lunes.py](soluciones/12_tareas_lunes.py)
+**Solución:** [soluciones/12_categoria_mayor_gasto.py](soluciones/12_categoria_mayor_gasto.py)
 
 ---
 
-### **Ejercicio 13: Gastros mensuales - ¿Cuál categoría gastó más?**
+### **Ejercicio 13: Deportes - ¿Cuál fue tu distancia total recorrida?**
 
-**Pregunta:** Tienes un resumen de gastos por categoría. ¿En qué gastaste más dinero?
+**Pregunta:** Tienes un registro de tus actividades deportivas con las distancias. ¿Cuántos kilómetros recorriste en total en febrero?
 
-**Archivo de datos:** [data/gastos_mensuales.txt](data/gastos_mensuales.txt)
+**Archivo de datos:** [data/deportes_mes.csv](data/deportes_mes.csv)
 
 **Qué debes hacer:**
-1. Lee el archivo TXT
-2. Agrupa los gastos por categoría y suma cada una
-3. Encuentra la categoría con mayor gasto
-4. Muestra el nombre y el total
+1. Lee el archivo CSV
+2. Suma todas las distancias recorridas
+3. Muestra el total en kilómetros
 
 **Esperado:**
 ```
-La categoría con mayor gasto es 'Vivienda' con 125.00€
+Distancia total recorrida en febrero: 75.5 km
 ```
 
-**Solución:** [soluciones/13_categoria_mayor_gasto.py](soluciones/13_categoria_mayor_gasto.py)
+**Solución:** [soluciones/13_distancia_total.py](soluciones/13_distancia_total.py)
 
 ---
 
@@ -296,15 +296,20 @@ Tu actividad favorita es 'Correr', la hiciste 5 veces en febrero.
 
 ## 🎯 Cómo empezar
 
+### Instalación inicial
+```bash
+uv sync
+```
+
 1. **Básicos:** Ejecuta los ejercicios 1-5 directamente
    ```bash
-   python soluciones/01_hola_mundo.py
+   uv run soluciones/01_hola_mundo.py
    ```
 
 2. **Con datos:** Primero revisa el archivo de datos, luego intenta resolver el ejercicio
    ```bash
    cat data/compras_semana.csv
-   python soluciones/06_gasto_total_compras.py
+   uv run soluciones/06_gasto_total_compras.py
    ```
 
 3. **Consulta soluciones:** Si te atascas, puedes ver cómo se resuelve abriendo el archivo de solución
